@@ -1,0 +1,257 @@
+format_version: '2'
+name: My Project
+versions:
+  api: '1.0'
+  backend: 1.8.491
+  commit: 605bd5a7663644fb84783aa2b00942b79b0d8955
+  content: unknown
+  content_pack_name: unknown
+  format: '2'
+  frontend: 1.8.491
+  packs_version_avr8: 1.0.1446
+  packs_version_qtouch: unknown
+  packs_version_sam: 1.0.1726
+  version_backend: 1.8.491
+  version_frontend: ''
+board:
+  identifier: SAMD20XplainedPro
+  device: SAMD20J18A-AU
+details: null
+application: null
+middlewares: {}
+drivers:
+  GCLK:
+    user_label: GCLK
+    definition: Atmel:SAMD20_Drivers:0.0.1::SAMD20J18A-AU::GCLK::driver_config_definition::GCLK::HAL:HPL:GCLK
+    functionality: System
+    api: HAL:HPL:GCLK
+    configuration:
+      $input: 400000
+      $input_id: External Crystal Oscillator 0.4-32MHz (XOSC)
+      RESERVED_InputFreq: 400000
+      RESERVED_InputFreq_id: External Crystal Oscillator 0.4-32MHz (XOSC)
+      _$freq_output_Generic clock generator 0: 400000
+      _$freq_output_Generic clock generator 1: 400000
+      _$freq_output_Generic clock generator 2: 400000
+      _$freq_output_Generic clock generator 3: 400000
+      _$freq_output_Generic clock generator 4: 400000
+      _$freq_output_Generic clock generator 5: 400000
+      _$freq_output_Generic clock generator 6: 400000
+      _$freq_output_Generic clock generator 7: 400000
+      enable_gclk_gen_0: true
+      enable_gclk_gen_0__externalclock: 1000000
+      enable_gclk_gen_1: false
+      enable_gclk_gen_1__externalclock: 1000000
+      enable_gclk_gen_2: false
+      enable_gclk_gen_2__externalclock: 1000000
+      enable_gclk_gen_3: false
+      enable_gclk_gen_3__externalclock: 1000000
+      enable_gclk_gen_4: false
+      enable_gclk_gen_4__externalclock: 1000000
+      enable_gclk_gen_5: false
+      enable_gclk_gen_5__externalclock: 1000000
+      enable_gclk_gen_6: false
+      enable_gclk_gen_6__externalclock: 1000000
+      enable_gclk_gen_7: false
+      enable_gclk_gen_7__externalclock: 1000000
+      gclk_arch_gen_0_RUNSTDBY: false
+      gclk_arch_gen_0_enable: true
+      gclk_arch_gen_0_idc: false
+      gclk_arch_gen_0_oe: false
+      gclk_arch_gen_0_oov: false
+      gclk_arch_gen_1_RUNSTDBY: false
+      gclk_arch_gen_1_enable: false
+      gclk_arch_gen_1_idc: false
+      gclk_arch_gen_1_oe: false
+      gclk_arch_gen_1_oov: false
+      gclk_arch_gen_2_RUNSTDBY: false
+      gclk_arch_gen_2_enable: false
+      gclk_arch_gen_2_idc: false
+      gclk_arch_gen_2_oe: false
+      gclk_arch_gen_2_oov: false
+      gclk_arch_gen_3_RUNSTDBY: false
+      gclk_arch_gen_3_enable: false
+      gclk_arch_gen_3_idc: false
+      gclk_arch_gen_3_oe: false
+      gclk_arch_gen_3_oov: false
+      gclk_arch_gen_4_RUNSTDBY: false
+      gclk_arch_gen_4_enable: false
+      gclk_arch_gen_4_idc: false
+      gclk_arch_gen_4_oe: false
+      gclk_arch_gen_4_oov: false
+      gclk_arch_gen_5_RUNSTDBY: false
+      gclk_arch_gen_5_enable: false
+      gclk_arch_gen_5_idc: false
+      gclk_arch_gen_5_oe: false
+      gclk_arch_gen_5_oov: false
+      gclk_arch_gen_6_RUNSTDBY: false
+      gclk_arch_gen_6_enable: false
+      gclk_arch_gen_6_idc: false
+      gclk_arch_gen_6_oe: false
+      gclk_arch_gen_6_oov: false
+      gclk_arch_gen_7_RUNSTDBY: false
+      gclk_arch_gen_7_enable: false
+      gclk_arch_gen_7_idc: false
+      gclk_arch_gen_7_oe: false
+      gclk_arch_gen_7_oov: false
+      gclk_gen_0_div: 1
+      gclk_gen_0_div_sel: false
+      gclk_gen_0_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_1_div: 1
+      gclk_gen_1_div_sel: false
+      gclk_gen_1_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_2_div: 1
+      gclk_gen_2_div_sel: false
+      gclk_gen_2_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_3_div: 1
+      gclk_gen_3_div_sel: false
+      gclk_gen_3_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_4_div: 1
+      gclk_gen_4_div_sel: false
+      gclk_gen_4_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_5_div: 1
+      gclk_gen_5_div_sel: false
+      gclk_gen_5_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_6_div: 1
+      gclk_gen_6_div_sel: false
+      gclk_gen_6_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+      gclk_gen_7_div: 1
+      gclk_gen_7_div_sel: false
+      gclk_gen_7_oscillator: External Crystal Oscillator 0.4-32MHz (XOSC)
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group: null
+  PM:
+    user_label: PM
+    definition: Atmel:SAMD20_Drivers:0.0.1::SAMD20J18A-AU::PM::driver_config_definition::PM::HAL:HPL:PM
+    functionality: System
+    api: HAL:HPL:PM
+    configuration:
+      $input: 400000
+      $input_id: Generic clock generator 0
+      RESERVED_InputFreq: 400000
+      RESERVED_InputFreq_id: Generic clock generator 0
+      _$freq_output_CPU: 400000
+      apba_div: '1'
+      apbb_div: '1'
+      apbc_div: '1'
+      cpu_clock_source: Generic clock generator 0
+      cpu_div: '1'
+      enable_cpu_clock: true
+      nvm_wait_states: '0'
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: CPU
+          input: CPU
+          external: false
+          external_frequency: 0
+        configuration: {}
+  TIMER_0:
+    user_label: TIMER_0
+    definition: Atmel:SAMD20_Drivers:0.0.1::SAMD20J18A-AU::TC0::driver_config_definition::Timer::HAL:Driver:Timer
+    functionality: Timer
+    api: HAL:Driver:Timer
+    configuration:
+      tc_arch_dbgrun: false
+      tc_arch_evact: Event action disabled
+      tc_arch_mceo0: false
+      tc_arch_mceo1: false
+      tc_arch_ovfeo: false
+      tc_arch_presync: Reload or reset counter on next GCLK
+      tc_arch_runstdby: false
+      tc_arch_tcei: false
+      tc_arch_tceinv: false
+      timer_advanced_configuration: true
+      timer_event_control: false
+      timer_prescaler: Divide by 8
+      timer_tick: 1000
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group:
+        nodes:
+        - name: TC
+          input: Generic clock generator 0
+          external: false
+          external_frequency: 0
+        configuration:
+          tc_gclk_selection: Generic clock generator 0
+  SYSCTRL:
+    user_label: SYSCTRL
+    definition: Atmel:SAMD20_Drivers:0.0.1::SAMD20J18A-AU::SYSCTRL::driver_config_definition::SYSCTRL::HAL:HPL:SYSCTRL
+    functionality: System
+    api: HAL:HPL:SYSCTRL
+    configuration:
+      $input: 400000
+      $input_id: Generic clock generator 3
+      RESERVED_InputFreq: 400000
+      RESERVED_InputFreq_id: Generic clock generator 3
+      _$freq_output_8MHz Internal Oscillator (OSC8M): 1000000
+      _$freq_output_Digital Frequency Locked Loop (DFLL48M): 48000000
+      _$freq_output_External Crystal Oscillator 0.4-32MHz (XOSC): '400000'
+      dfll48m_arch_calibration: false
+      dfll48m_arch_ccdis: false
+      dfll48m_arch_coarse: 31
+      dfll48m_arch_enable: false
+      dfll48m_arch_fine: 512
+      dfll48m_arch_llaw: false
+      dfll48m_arch_ondemand: true
+      dfll48m_arch_qldis: false
+      dfll48m_arch_runstdby: false
+      dfll48m_arch_stable: false
+      dfll48m_mode: Open Loop Mode
+      dfll48m_mul: 0
+      dfll48m_ref_clock: Generic clock generator 3
+      dfll_arch_cstep: 1
+      dfll_arch_fstep: 1
+      enable_dfll48m: false
+      enable_osc32k: false
+      enable_osc8m: false
+      enable_osculp32k: true
+      enable_xosc: true
+      enable_xosc32k: false
+      osc32k_arch_calib: 0
+      osc32k_arch_en1k: false
+      osc32k_arch_en32k: false
+      osc32k_arch_enable: false
+      osc32k_arch_ondemand: true
+      osc32k_arch_overwrite_calibration: false
+      osc32k_arch_runstdby: false
+      osc32k_arch_startup: 3 Clock Cycles (92us)
+      osc32k_arch_wrtlock: false
+      osc8m_arch_calib: 0
+      osc8m_arch_enable: false
+      osc8m_arch_ondemand: true
+      osc8m_arch_overwrite_calibration: false
+      osc8m_arch_runstdby: false
+      osc8m_presc: '8'
+      osculp32k_arch_calib: 0
+      osculp32k_arch_overwrite_calibration: false
+      osculp32k_arch_wrtlock: false
+      xosc32k_arch_aampen: false
+      xosc32k_arch_en1k: false
+      xosc32k_arch_en32k: false
+      xosc32k_arch_enable: false
+      xosc32k_arch_ondemand: true
+      xosc32k_arch_runstdby: false
+      xosc32k_arch_startup: 122 us
+      xosc32k_arch_wrtlock: false
+      xosc32k_arch_xtalen: false
+      xosc_arch_ampgc: false
+      xosc_arch_enable: true
+      xosc_arch_gain: 2Mhz
+      xosc_arch_ondemand: true
+      xosc_arch_runstdby: false
+      xosc_arch_startup: 31 us
+      xosc_arch_xtalen: false
+      xosc_frequency: 400000
+    optional_signals: []
+    variant: null
+    clocks:
+      domain_group: null
+pads: {}
+toolchain_options: []
